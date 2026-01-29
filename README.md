@@ -1,4 +1,5 @@
-<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/329f6a4f-455d-4b7d-ad10-be78a270ce68" /># 🏠 Fuel Efficiency Prediction using Machine Learning
+
+# 🏠 Fuel Efficiency Prediction using Machine Learning
 
 > A professional Machine Learning project that predictsmiles per gallon (MPG) based on horsepower using regression models.
 
