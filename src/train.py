@@ -5,6 +5,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
+from visualize import visualize
+
 df = pandas.read_csv("../data/mpg_data.csv")
 X = df[["Horsepower"]].values
 y = df["MPG"].values
@@ -34,6 +36,4 @@ print("Model Performance:")
 print(f"R² Score: {r2:.2f}")
 print(f"MAE: {mae:.2f}")
 print(f"MSE: {mse:.2f}")
-plt.scatter(X, y)
-plt.plot(X, model.predict(X), color="red")
-plt.show()
+visualize(X, y, model)
